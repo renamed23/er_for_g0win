@@ -1,0 +1,18 @@
+# Python生成文件
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# 虚拟环境
+.venv
+
+/misc
+/workspace/记录.txt
+/.clinerules
+
+# 生成文件
+/misc/gpp
+/workspace/generated
