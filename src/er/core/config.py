@@ -6,6 +6,10 @@ CONFIG = {
     "CHAR_SET": 134,
     "FONT_FILTER": ["Microsoft YaHei", "Microsoft YaHei UI"],
     "WINDOW_TITLE": "咏奏",
+    "ARG_GAME_TYPE": {
+        "value": "うたかな",
+        "type": "&str",
+    },
 }
 
 HOOK_LISTS = {
