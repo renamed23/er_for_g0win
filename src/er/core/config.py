@@ -24,13 +24,28 @@ HOOK_LISTS = {
     ],
 }
 
+# bind_asset_virtualizer, bind_font_manager, bind_lifecycle_guard
+# bind_path_redirector, bind_text_mapping, bind_user_interface_patcher
+# bind_window_title_overrider, disable_forced_font, enable_debug_output
+# assume_text_out_arg_c_is_byte_len, enable_window_title_override
+# enable_text_mapping_debug, enable_x64dbg_1337_patch
+# auto_apply_1337_patch_on_attach, auto_apply_1337_patch_on_hwbp_hit
+# enable_attach_cleanup, enable_overlay_gl, enable_overlay
+# enable_gl_painter, enable_win_event_hook, enable_worker_thread
+# enable_hwbp_from_constants, enable_veh, enable_resource_pack
+# embed_resource_pack, enable_iat_hook, enable_text_patch
+# extract_text, enable_patch, extract_patch, enable_custom_font
+# export_default_dll_main, enable_locale_emulator, enable_delayed_attach
+# enable_dll_hijacking, export_hook_symbols, default_impl
 FEATURES = [
     "g0win",
-    "text_hook",
-    "iat_hook",
-    "text_out_arg_c_is_bytes",
-    "text_patch",
-    "override_window_title",
+    "bind_text_mapping",
+    "bind_font_manager",
+    "enable_iat_hook",
+    "assume_text_out_arg_c_is_byte_len",
+    "enable_text_patch",
+    "bind_window_title_overrider",
+    "enable_window_title_override",
 ]
 
 BITMAP_FONT = {
